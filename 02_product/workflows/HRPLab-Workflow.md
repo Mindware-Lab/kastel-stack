@@ -146,6 +146,75 @@ Kernel policy for all workflows:
 5. Segment expansion experiments (new niches/offers/channels).
 6. Tier progression decisions (A -> B -> C readiness gates).
 
+## 13) Market Discovery and Segmentation Operations
+
+1. Segment hypothesis backlog (who benefits most, why now, expected willingness to pay).
+2. Monthly segment scorecard (conversion, retention, support load, coaching fit, evidence quality).
+3. Idea triage workflow (new offer/feature/content themes scored by impact, confidence, effort).
+4. Micro-pilot design per segment before broad rollout.
+5. Messaging adaptation loop by segment (claim framing, pain framing, proof framing).
+6. Kill/scale decision cadence for segment experiments.
+
+## 14) Sales Pipeline and Closing Workflow
+
+1. Lead stage pipeline (`new -> qualified -> consult/booked -> proposal -> won/lost`).
+2. Qualification checklist (fit, budget, urgency, protocol readiness, coachability).
+3. Sales call prep brief auto-generated from intake and assessment.
+4. Proposal drafting workflow by tier (Standalone/Premium/Platinum).
+5. Commitment capture workflow (paid, deposit, or dated decision).
+6. Lost-deal reason coding and follow-up sequence.
+7. Sales cycle KPI tracker (time-to-close, close rate by segment and offer).
+
+## 15) Partnership and Talent Pipeline Workflow
+
+1. Partner sourcing workflow (universities, coaches, communities, affiliates, research collaborators).
+2. Partner qualification rubric (audience fit, credibility, compliance, co-delivery potential).
+3. Co-marketing and referral campaign workflow with attributable links.
+4. Partner-sourced lead and revenue attribution dashboard.
+5. Intern/freelancer pipeline workflow (role specs, sourcing, task trials, onboarding).
+6. Contributor performance review loop (quality, speed, reliability, supervision burden).
+7. Partnership renewal/exit workflow with governance and risk checks.
+
+## 16) Prototype-to-Product Migration Workflow
+
+1. Prototype readiness assessment (technical debt, reliability risks, entitlement gaps).
+2. Migration plan workflow (`prototype -> beta -> paid -> hardened`) with gates.
+3. Auth + entitlement integration checklist (server-truth access control).
+4. Data continuity and cross-device sync migration plan.
+5. Payment and fulfilment reliability test suite before paid launch.
+6. Rollback and incident plan for release day.
+7. Post-launch stabilization sprint workflow (bugs, support, trust metrics).
+
+## 17) Experimentation and Causal Testing Workflow
+
+1. Experiment request intake (`hypothesis, target segment, metric, expected effect`).
+2. Variant design workflow (control vs treatment definitions).
+3. Assignment and exposure logging workflow (clean audit of who saw what and when).
+4. Runtime guardrails (safety, ethics, claim-risk, stop conditions).
+5. Result interpretation workflow (effect size, uncertainty, operational impact).
+6. Ship/iterate/kill decision memo generation.
+7. Experiment archive workflow (queryable evidence for future roadmap decisions).
+
+## 18) Instrumentation and Validation Workflow
+
+1. Measurement registry workflow (each metric: definition, purpose, owner, decision use).
+2. Assessment reliability checks across versions/devices/time windows.
+3. Drift detection workflow for behavioural and outcome metrics.
+4. Data quality monitoring workflow (missingness, latency, schema breakage, outliers).
+5. Validation study workflow for new tests/protocol variants.
+6. Alerting and escalation for decision-grade metric failures.
+7. Versioned metric-change log with downstream impact notes.
+
+## 19) Evidence Synthesis to Decision and Publication Workflow
+
+1. Analysis bundle generation from events, experiments, and outcome snapshots.
+2. Standard decision memo workflow (`question -> method -> result -> recommendation -> risk`).
+3. Evidence pack generation (figures, tables, assumptions, reproducibility notes).
+4. Publication route workflow (technical note, white paper, preprint-ready draft).
+5. Internal scientific review gate before external publication.
+6. Product feedback loop (translate evidence into protocol, pricing, or workflow updates).
+7. Reuse library workflow (evidence artefacts indexed for future investor/client/research use).
+
 ---
 
 ## Priority Rollout (Recommended)
