@@ -1,0 +1,10 @@
+﻿# Ignore OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build/temp artifacts
+*.log
+*.tmp
+*.swp
