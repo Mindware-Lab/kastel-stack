@@ -173,6 +173,7 @@ Apply the same vertical stack to each domain so scaling is uniform.
 ### L5) Intent and Execution Layer
 - Creates Action Intents.
 - Executes only approved intents via connectors.
+- MVP default: n8n is the primary execution/orchestration adapter.
 - Handles retries, rollback, and compensation actions.
 
 ### L6) Truth and Evidence Layer

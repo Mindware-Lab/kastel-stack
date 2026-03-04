@@ -14,7 +14,7 @@ Sources you listed (examples):
 
 Implementation (Tier A, MVP):
 
-- Use Make/Zapier to normalise events and post them to one HTTPS endpoint:
+- Use n8n as the primary execution/orchestration adapter to normalise events and post them to one HTTPS endpoint:
   - `POST /api/signals/ingest`
 - Stripe webhooks go direct to a dedicated endpoint:
   - `POST /api/stripe/webhook` (verified + idempotent)
@@ -53,7 +53,7 @@ The gate decides:
 
 ### D. Actions out (connectors/tool layer)
 
-Your connectors (Make/Zapier early) become actuators that only run when the kernel allows.
+Your connectors (n8n primary in MVP; Make/Zapier optional adapters) become actuators that only run when the kernel allows.
 
 Key rule: the kernel never "does" an action until it has created an Action Intent and it passes gates.
 
@@ -95,9 +95,9 @@ You already have the right mechanism: portability experiments (`wrapper_swap`, `
 
 - Executor (tool runner)
   - `executeIntent(intent_id)` only if allowed (permissions + risk + Psi)
-  - In Tier A, this may call Make/Zapier webhook(s) to perform the external action.
+  - In Tier A, this should call n8n webhook(s) to perform external actions.
 
-(Keep "planner" and "executor" separate - it prevents accidental autonomy.)
+(Keep "planner" and "executor" separate - it prevents accidental autonomy. Kernel decides; n8n executes.)
 
 ## 3) Data in Supabase (what to store)
 

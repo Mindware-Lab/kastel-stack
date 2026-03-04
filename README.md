@@ -33,7 +33,7 @@ Kastel Stack is a **governed execution layer** for small teams: agentic automati
 - Websites: GitHub Pages (static)
 - Backend: Supabase (Auth + Postgres + RLS)
 - Payments: Stripe (Checkout + webhooks)
-- Automation/connectors: Make/Zapier (early)
+- Automation/connectors: n8n (primary MVP execution/orchestration adapter); Make/Zapier optional during migration
 - LLM: hosted provider behind strict tool allowlists + schema validation
 - Console: hosted React/Next.js
 - Audit log: Postgres `events` (append-only) + daily export

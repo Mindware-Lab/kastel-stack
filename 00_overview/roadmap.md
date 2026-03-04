@@ -20,7 +20,7 @@ We only "bank" workflows after **proof checks** (dry-run -> rollback test -> del
 - Websites: GitHub Pages
 - Backend: Supabase (Auth + Postgres + RLS)
 - Payments: Stripe Checkout + webhooks (server-truth entitlements)
-- Automation/connectors: Make/Zapier (early)
+- Automation/connectors: n8n (primary MVP execution/orchestration adapter); Make/Zapier optional during migration
 - LLM: hosted provider behind tool allowlists + schema validation
 - Console UI: hosted React/Next.js
 - Audit log: Postgres `events` (append-only) + daily export
