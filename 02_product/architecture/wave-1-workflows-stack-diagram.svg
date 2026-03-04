@@ -133,6 +133,6 @@
   <!-- Flow arrows -->
   <path class="arrow" d="M370 345 L420 345"/>
   <path class="arrow" d="M980 345 L1030 345"/>
-  <path class="arrow" d="M1195 424 L1195 470 L980 470"/>
+  <path class="arrow" d="M1030 560 L980 560"/>
   <path class="arrow dashed" d="M700 580 L700 640"/>
 </svg>
